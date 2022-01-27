@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
+}
+
+ body {
+    background: black;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+  .titulo {
+    font-size: 50px;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    width: 30vw;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .container{
+    padding-top: 10px;
+    text-align: center;  
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto; 
+    margin-top: 20px;         
+    max-width: 640px;   
+    border-radius: 10%;
+    height: 500px;
+    box-shadow: 0px 0px 100px 20px #6dc0a0fd;
+    backdrop-filter: blur(5px);
+    }
+    
+    .inp-ingrese{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        width: 60%;
+        height: 3rem;
+        margin-top: 3rem;
+        margin-bottom:1rem ;
+        border-radius: 20px;
+        box-shadow:0.5rem 0.5rem 1.5rem rgb(10, 10, 10) ;
+        border:none;
+        
+        opacity: 0.6;
+        
+    }
+    button{
+    width:120px;
+    font-family: 'Ubuntu', sans-serif;
+    float:inline-start;
+    text-align: center;
+    }
+
+    .btn-encript{
+        height: 3rem;
+        border-radius: 1rem;
+        background-color: rgb(8, 137, 223);
+        font-weight: bold;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(165, 193, 209) ;
+        margin-right: 5px;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(251, 251, 251);
+        font-size: 18px;
+        border:none;
+        opacity: 0.6;
+    
+    }
+
+    .btn-encript:hover{
+        background-color:rgb(149, 201, 236) ;
+        color: black;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(0, 0, 0) ;
+    }
+    .btn-desencript{
+        height: 3rem;
+        border-radius: 1rem;
+        background-color:rgb(8, 137, 223) ;
+        font-weight: bold;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(165, 193, 209) ;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(251, 251, 251);
+        font-size: 18px;
+        border:none;
+        opacity: 0.6;
+    }
+    .btn-desencript:hover{
+        background-color:rgb(149, 201, 236) ;
+        color: black;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(0, 0, 0) ;
+    }
+    .mje-encript{
+        text-align: center;
+        width: 60%;
+        height: 3rem;
+        margin-top: 2rem;
+        margin-bottom:1rem ;
+        border-radius: 20px;
+        box-shadow:0.5rem 0.5rem 1rem rgb(12, 12, 12) ;
+        border:none;
+        opacity: 0.6;
+        
+    }
+    .btn-copiar{
+        height: 3rem;
+        border-radius: 1rem;
+        font-weight: bold;
+        background-color: rgb(8, 137, 223);
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(165, 193, 209) ;
+        color: aliceblue;
+        border:none;
+        opacity: 0.6;
+        
+    }
+    .btn-copiar:hover{
+        background-color:rgb(149, 201, 236) ;
+        color: black;
+        box-shadow: 0.7rem 0.7rem 1.8rem rgb(0, 0, 0) ;
+    
+    }
+    
+    .error{
+        color: rgb(251, 0, 0);
+        position: absolute;
+        top: 27%;
+        left: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        height: 25px;
+        width: 250px;
+        display: none;
+        
+        
+    }
+    
+    
+  footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  } 
